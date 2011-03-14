@@ -9,6 +9,7 @@ gem 'sqlite3'
 gem 'redis', '2.1.1'
 gem "sinatra", "1.1.0", :require => "sinatra/base"
 gem "haml", "3.0.23"
+gem "devise", "1.1.3"
 
 # Use unicorn as the web server
 # gem 'unicorn'
