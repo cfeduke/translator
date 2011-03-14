@@ -6,6 +6,9 @@ gem 'rails', '3.0.5'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'redis', '2.1.1'
+gem "sinatra", "1.1.0", :require => "sinatra/base"
+gem "haml", "3.0.23"
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -29,3 +32,7 @@ gem 'sqlite3'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+group :test do
+	gem "capybara", "0.4.0"
+end

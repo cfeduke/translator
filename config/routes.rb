@@ -1,4 +1,5 @@
 Translator::Application.routes.draw do
+  mount Translator::App, :at => "/translator"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
