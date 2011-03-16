@@ -35,5 +35,6 @@ gem "devise", "1.1.3"
 # end
 
 group :test do
-	gem "capybara", "0.4.0"
+	gem "capybara"
+	gem "launchy"
 end
